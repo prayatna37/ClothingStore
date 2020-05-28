@@ -1,0 +1,73 @@
+.product-overview a img {
+    height: 450px !important;
+
+}
+
+.checkout-details input {
+    outline: 0;
+    border-width: 0 0 2px;
+}
+
+.checkout-details textarea {
+    outline: 0;
+    border-width: 0 0 2px;
+}
+
+.cart-delete {
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+
+    color: #1e1e1e !important;
+}
+
+.cart-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+#card-errors {
+    color: red;
+}
+
+#complete-order:disabled {
+    cursor: not-allowed;
+}
+
+.product-controls li a {
+    text-decoration: none;
+    color: black;
+}
